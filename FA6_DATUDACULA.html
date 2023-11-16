@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<head>
+  <title>Formative Assessment 6</title>
+
+  <style>
+    body {
+      font-family: Comic Sans MS;
+    }
+
+    a {
+      display: inline-block;
+      padding: 10px;
+      margin-right: 10px;
+      background-color: #004a61;
+      text-decoration: none;
+      color: #7c7373;
+    }
+
+    a:visited{
+      color:white;
+      background: color #964b4b;;
+    }
+
+    a:hover {
+      background-color: #c27575;
+    }
+
+    a:focus {
+      background-color: #944197;
+    }
+    
+    a:active {
+      background-color: #54caee;
+      color:black;
+    }
+
+    #div1,
+    #div2 {
+      width: 100px;
+      height: 100px;
+      margin-top: 10px;
+      border: 1px solid black;
+      text-align: center;
+      line-height: 100px;
+    }
+
+    #div1:target {
+      background-color: #0a2a81;
+      color: #8f1b80;
+    }
+
+    #div2:target {
+      color:white;
+      background-color:#54caee;
+      border: 10px dotted green;
+    }
+  </style>
+</head>
+<body>
+
+  <a href="#div1">Link 1</a>
+  <a href="#div2">Link 2</a>
+  
+  <br>
+
+  <div id="div1">Div 1</div>
+  <div id="div2">Div 2</div>
+
+</body>
+</html>
